@@ -1748,3 +1748,18 @@ $tyra-yellow: #fce300;
     bottom: -15px;
     left: 80%;
 }
+
+.demo-site {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 1rem;
+
+    background-color: $tyra-yellow;
+    border: 3px solid $tyra-yellow;
+    color: black;
+    z-index: 1000;
+
+    font-family: "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
